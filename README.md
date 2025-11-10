@@ -24,6 +24,13 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 |      |---3
 |      |---4
 |      |---5
+|---visualizations                     # Project visualizations
+|      |---model_structure.png
+|      |---real_world_matrix.png
+|      |---real_world_set.png
+|      |---test_matrix.png
+|      |---test_mislabeled.png
+|      |---training_loss.png
 |---README.md
 |---SignLanguageClassification.ipynb   # Final Project Jupyter Notebook
 |---test.h5                            # test dataset
@@ -51,25 +58,6 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 ## Key Visualizations
 
 ### Model Structure
-```
-model = Sequential()
-#1
-model.add(Conv2D(filters=32, kernel_size=3, strides=1,
-                 padding='same', activation='relu',
-                 input_shape=[64, 64, 3]))
-#2
-model.add(MaxPooling2D(2, ))
-#3
-model.add(Conv2D(filters=64, kernel_size=3, strides=1,
-                 padding='same', activation='relu'))
-#4
-model.add(MaxPooling2D(2))
-#5
-model.add(Flatten())
-#6
-model.add(Dense(128, activation='relu'))
-#7
-model.add(Dense(6, activation='softmax'))
-```
+[Model Structure](visualizations/model_structure.png)
 
 
