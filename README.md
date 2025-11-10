@@ -58,6 +58,6 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 ## Key Visualizations
 
 ### Model Structure
-[Model Structure](visualizations/model_structure.png)
+![Model Structure](visualizations/model_structure.png)
 
 
