@@ -1,4 +1,4 @@
-# Hand Sign Classification  
+# Sign Language Detection  
 ### Max Clark, Lukas Schneider, Rowan King, Brendan McGuinness  
 
 ## Introduction  
