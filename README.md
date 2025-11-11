@@ -60,4 +60,21 @@ This project intends to train a Convolutional Neural Network (CNN) to classify i
 ### Model Structure
 ![Model Structure](visualizations/model_structure.png)
 
+### Training Loss and Accuracy
+![Training Loss and Accuracy](visualizations/training_loss.png)
+
+### Testing Confusion Matrix
+![Testing Confusion Matrix](visualizations/test_matrix.png)
+
+### Mislabeled Images
+![Mislabeled Images](visualizations/test_mislabeled.png)
+
+### Real-World Dataset
+![Real-World Dataset](visualizations/real_world_set.png)
+
+### Real-World Confusion Matrix
+![Real-World Confusion Matrix](visualizations/real_world_matrix.png)
+
+---
+
 
